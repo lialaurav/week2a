@@ -89,7 +89,6 @@ function progress() {
 		}
 	} else {
 		document.getElementById("progress").style.width = width + "%";
-		click = true;
 	}
 }
 
