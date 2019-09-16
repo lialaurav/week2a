@@ -1,46 +1,46 @@
 body {
-	font-family: Helvetica;
+  font-family: Helvetica;
 }
 
 h1 {
-	font-size: 35px;
-	text-transform: uppercase;
-	margin-bottom: 10px;
-	text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .container {
-	width: 305px;
-	margin: 30px auto;
-	position: relative;
+  width: 305px;
+  margin: 30px auto;
+  position: relative;
 }
 
 .board {
-	width: 305px;
-	height: 305px;
-	border-collapse: collapse;
-	border: 1px solid black;
+  width: 305px;
+  height: 305px;
+  border-collapse: collapse;
+  border: 1px solid black;
 }
 
-.col {
-	width: 60px;
-	height: 60px;
-	font-family: Helvetica;
-	border: 1px solid black;
-	font-size: 30px;
-	vertical-align: middle;
-	text-align: center;
+td {
+  width: 60px;
+  height: 60px;
+  font-family: Helvetica;
+  border: 1px solid black;
+  font-size: 30px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .bar {
-	width: 301px;
-	height: 20px;
-	background-color: lightgrey;
-	margin: auto;
+  width: 301px;
+  height: 20px;
+  background-color: lightgrey;
+  margin: auto;
 }
 
 .progress {
-	background-color: lightgreen;
-	width: 0px;
-	height: 100%;
+  background-color: lightgreen;
+  width: 0px;
+  height: 100%;
 }
