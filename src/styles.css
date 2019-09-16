@@ -1,0 +1,46 @@
+body {
+	font-family: Helvetica;
+}
+
+h1 {
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.container {
+	width: 305px;
+	margin: 30px auto;
+	position: relative;
+}
+
+.board {
+	width: 301px;
+	height: 301px;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+.col {
+	width: 20%;
+	height: 20%;
+	font-family: Helvetica;
+	border: 1px solid black;
+	font-size: 30px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.bar {
+	width: 301px;
+	height: 20px;
+	background-color: lightgrey;
+	margin: auto;
+}
+
+.progress {
+	background-color: lightgreen;
+	width: 0px;
+	height: 100%;
+}
