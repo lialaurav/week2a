@@ -9,7 +9,7 @@ function insert(id) {
 		checkEmpty("x", id);
 		start();
 		if (checkAll("x") == 1) {
-			alert("Player 1 has won!");
+			alert("Player 1 won!");
 			stop();
 			turn = 0;
 		}
@@ -17,7 +17,7 @@ function insert(id) {
 		checkEmpty("o", id);
 		start();
 		if (checkAll("o") == 1) {
-			alert("Player 2 has won!");
+			alert("Player 2 won!");
 			stop();
 			turn = 0;
 		}
